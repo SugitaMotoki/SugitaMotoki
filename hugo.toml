@@ -1,0 +1,73 @@
+# abstract
+title = "とりてん"
+baseurl = "https://SugitaMotoki.github.io"
+theme = "beautifulhugo"
+
+# language
+languageCode = "ja"
+hasCJKLanguage = true
+# defaultContentLanguage = "ja"
+
+# pygments
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# emoji
+enableEmoji = true
+
+[Params]
+  homeTitle = "TORITEN"
+  subtitle = ""
+  mainSections = ["post","posts"]
+  logo = "img/toriten_circle.png"
+  favicon = "img/toriten_favicon.ico"
+  dateFormat = "2006/01/02"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+
+[Author]
+  name = "toriten"
+  website = "page/about/"
+  email = "s.toriten21@gmail.com"
+  # twitter = "username"
+  # instagram = "username"
+  # github = "username"
+  # gitlab = "username"
+  # youtube = "user/username"
+  # discord = "invite code (https://discord.gg/XXXXXXX)"
+  # slack = "username"
+  # facebook = "username"
+  # bitbucket = "username"
+  # reddit = "username"
+  # linkedin = "username"
+  # xing = "username"
+  # stackoverflow = "users/XXXXXXX/username"
+  # snapchat = "username"
+  # soundcloud = "username"
+  # spotify = "username"
+  # bandcamp = "username"
+  # itchio = "username"
+  # vk = "username"
+  # paypal = "username"
+  # telegram = "username"
+  # 500px = "username"
+  # codepen = "username"
+  # mastodon = "url"
+  # kaggle = "username"
+  # weibo = "username"
+  # medium = "username"
+  # strava = "userid"
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 1
